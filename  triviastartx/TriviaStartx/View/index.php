@@ -14,6 +14,7 @@
  		</form>
  	<form method="post" action="ClassesMetier/Inscription.php">
   		<input type="submit" value="S'inscrire" />
+  		
   		</form>
 </center>	
 </body>
