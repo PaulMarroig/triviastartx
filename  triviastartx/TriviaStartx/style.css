@@ -1,0 +1,38 @@
+
+/*Apply this class to some text to unlock the secrets of the third dimension!*/
+.Three-Dee{
+font-family: Garamond, serif;
+line-height: 1em;
+color: #d11b1b;
+font-weight:bold;
+font-size: 87px;
+text-shadow:0px 0px 0 rgb(170,-12,-12),1px 1px 0 rgb(152,-30,-30),2px 2px 0 rgb(135,-47,-47),3px 3px 0 rgb(117,-65,-65), 4px 4px 0 rgb(100,-82,-82),5px 5px 4px rgba(0,0,0,0.6),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);}
+
+.connect{
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+-moz-box-shadow: 0px 0px 8px #000000;
+-webkit-box-shadow: 0px 0px 8px #000000;
+box-shadow: 0px 0px 8px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ff2f0d', endColorstr = '#ff7d63');
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ff2f0d', endColorstr = '#ff7d63')";
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+background-image: -moz-linear-gradient(top, #ff2f0d, #ff7d63);
+background-image: -ms-linear-gradient(top, #ff2f0d, #ff7d63);
+background-image: -o-linear-gradient(top, #ff2f0d, #ff7d63);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ff2f0d), to(#ff7d63));
+background-image: -webkit-linear-gradient(top, #ff2f0d, #ff7d63);
+background-image: linear-gradient(top, #ff2f0d, #ff7d63);
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+/*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+/*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+}
