@@ -1,4 +1,6 @@
 <?php
+require_once 'View/Inscrit.php';
+
 class Inscription{
 	private $nom;        
 	private $prenom; 
