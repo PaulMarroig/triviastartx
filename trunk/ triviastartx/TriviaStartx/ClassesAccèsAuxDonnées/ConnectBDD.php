@@ -1,4 +1,7 @@
 <?php
+/** 
+ * Classes d'accès à une base de donnée
+ */
 	// Connection au serveur
 	try
 	{
