@@ -11,8 +11,10 @@
 <center>
 	<form method="post" action="Connect.php">
  		<input type="submit" value="Déjà inscrit" />
+ 		</form>
  	<form method="post" action="Inscription.php">
   		<input type="submit" value="S'inscrire" />
+  		</form>
 </center>	
 </body>
 </html>
