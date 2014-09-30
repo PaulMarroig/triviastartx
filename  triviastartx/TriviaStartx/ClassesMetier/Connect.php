@@ -1,5 +1,5 @@
 <?php
-require_once 'View/Connecter.php';
+require_once '../View/Connecter.php';
 
 class Connect{
 
