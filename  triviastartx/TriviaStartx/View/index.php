@@ -9,10 +9,10 @@
 <center><div class="Three-Dee">TriviaStart</div></center>
 <div class="connect">.</div></br>
 <center>
-	<form method="post" action="../ClassesMetier/Connect.php">
+	<form method="post" action="../Classes/Connect.php">
  		<input type="submit" value="Déjà inscrit" />
  		</form>
- 	<form method="post" action="../ClassesMetier/Inscription.php">
+ 	<form method="post" action="../Classes/Inscription.php">
   		<input type="submit" value="S'inscrire" />
   		
   		</form>
