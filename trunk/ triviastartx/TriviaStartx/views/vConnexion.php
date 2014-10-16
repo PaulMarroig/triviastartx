@@ -5,7 +5,7 @@
                 <div id="container_demo" >
                     <div id="wrapper">
                         <div id="login" class="animate form">
-                            <form  method="post" action="/Trivia/CConnexion/login/" autocomplete="on"> 
+                            <form  method="post" action="/TriviaStartx/CConnexion/login/" autocomplete="on"> 
                                 <h1>Login</h1> 
                                 <p> 
                                     <label for="username" class="uname" data-icon="u" > Identifiant </label>
@@ -24,7 +24,7 @@
 								</p>
                                 <p class="change_link">
 									Pas encore membre ?
-									<a href="cInscription" class="to_register" >Inscrivez-vous</a>
+									<a href="CInscription" class="to_register" >Inscrivez-vous</a>
 								</p>
                             </form>
                            

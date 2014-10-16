@@ -14,7 +14,7 @@ public function index(){
 	);
 	
 	$this->loadView("vHeader");
-	$this->loadView("PartieLancer",$valeur);
+	$this->loadView("vPartieLancer",$valeur);
 	echo JsUtils::getAndBindTo(".reponse", "click", "/Trivia/CReponse/reponse", "{}","#message");
 
 }

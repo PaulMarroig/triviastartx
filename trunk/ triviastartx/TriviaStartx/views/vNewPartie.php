@@ -1,9 +1,9 @@
 
 
-<center><div class="Three-Dee">TriviaStart</div></center>
+<center><div class="Three-Dee">TriviaStartx</div></center>
 	<form method="post" action="CQuestion">
 		<hr> + Nouvelle Partie: 
-		<input type="submit" value="CrÃ©er Partie" />
+		<input type="submit" value="Créer Partie" />
  	</form>
  		<hr> Leur tour:<p>
  		<table border="1">

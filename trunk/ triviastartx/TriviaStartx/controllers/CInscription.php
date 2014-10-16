@@ -8,10 +8,10 @@ class CInscription extends \BaseController{
 		$this->loadView("vHeader");
 		$this->loadView("vInscription");
 	}
-	
+	 
 	
 	public function getMonde(){
-		$mondes =DAO::getAll("Monde");
+		$mondes =DAO::getAll("Monde"); 
 		return $mondes;
 	}
 	
