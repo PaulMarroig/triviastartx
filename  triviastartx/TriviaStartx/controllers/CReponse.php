@@ -10,7 +10,7 @@ class CReponse extends \BaseController{
 
 		$g=substr($_GET['c'],-1);
 		if($g==1){
-			echo "bonne rÃ©ponse <br><br>";
+			echo "bonne réponse <br><br>";
 		}
 		else{
 			echo"faux <br><br>";

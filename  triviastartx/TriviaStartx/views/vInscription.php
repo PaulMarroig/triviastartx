@@ -5,7 +5,7 @@
                 <div id="container_demo" >
                     <div id="wrapper">
                         <div id="login" class="animate form">
-                            <form method="post" action="/Trivia/cInscription/addNew/" autocomplete="on"> 
+                            <form method="post" action="/TriviaStartx/CInscription/addNew/" autocomplete="on"> 
                                 <h1>Inscription</h1> 
                                 <p> 
                                     <label for="name" class="name" data-icon="u"> Nom </label>

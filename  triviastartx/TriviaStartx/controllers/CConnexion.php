@@ -11,7 +11,7 @@ class CConnexion extends \BaseController{
 	public function login(){
 		$joueur = new Joueur();
 		RequestUtils::setValuesToObject($joueur);
-		var_dump($joueur);
+		//var_dump($joueur);
 		$login = htmlspecialchars($_POST['login']);
 		$password = htmlspecialchars($_POST['password']);
 			
@@ -19,15 +19,13 @@ class CConnexion extends \BaseController{
 			$checkPlayer= DAO::getOne("Joueur", "login='".$login."'AND password='".$password."'");
 			if($checkPlayer instanceof Joueur){
 				$_SESSION['joueur']=$checkPlayer;
-				echo JsUtils::execute('window.location = "../../cPartieLancer"');
+				echo JsUtils::execute('window.location = "../../CPartieLancer"');
 			}
 			else{
 				echo "Identifiant incorrect";
 			}
 		}
-		else{
-			echo"Entrer vos identifiant.";
-		}
+		
 	}
 
 }

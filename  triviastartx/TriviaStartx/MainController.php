@@ -1,6 +1,6 @@
 <?php
 error_reporting(E_ALL);
-$GLOBALS["siteUrl"]="/trivia/";
+$GLOBALS["siteUrl"]="/TriviaStartx/";
 ?>
 
 <?php
