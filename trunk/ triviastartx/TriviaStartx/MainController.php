@@ -11,8 +11,8 @@ $ctrl=new MainController();
 $ctrl->run();
 
 function __autoload($myClass){
-	if(file_exists("Controler/".$myClass.".php"))
-		require_once("Controler/".$myClass.".php");
+	if(file_exists("Controllers/".$myClass.".php"))
+		require_once("Controllers/".$myClass.".php");
 	else if(file_exists("classes/".$myClass.".php"))
 		require_once("classes/".$myClass.".php");
 	else if(file_exists("technics/".$myClass.".php"))
