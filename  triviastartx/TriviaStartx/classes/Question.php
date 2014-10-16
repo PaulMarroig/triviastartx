@@ -1,46 +1,55 @@
 <?php
-
-class Question extends \BaseObject{
+class Question extends \BaseObject {
 	
-	private $iddomaine;
-	private $idjoueur;
+	/**
+	*
+	* @ManyToOne
+	* @JoinColumn(name="iddomaine",className="Domaine")
+	*/
+	private $domaine;
+	/**
+	*
+	* @ManyToOne
+	* @JoinColumn(name="idJoueur",className="Joueur")
+	*/
+	private $idJoueur;
 	private $libelle;
 	private $validation;
-
-	public function getIddomaine() {
-		return $this->iddomaine;
-	}
 	
-	public function setIddomaine($iddomaine) {
-		$this->iddomaine = $iddomaine;
+	public function getIdJoueur() {
+		return $this->idJoueur;
+	}
+	public function setIdJoueur($idJoueur) {
+		$this->idJoueur = $idJoueur;
 		return $this;
 	}
-	
-	public function getIdjoueur() {
-		return $this->idjoueur;
-	}
-	
-	public function setIdjoueur($idjoueur) {
-		$this->idjoueur = $idjoueur;
-		return $this;
-	}
-	
 	public function getLibelle() {
 		return $this->libelle;
 	}
-	
 	public function setLibelle($libelle) {
 		$this->libelle = $libelle;
 		return $this;
 	}
-	
 	public function getValidation() {
 		return $this->validation;
 	}
-	
 	public function setValidation($validation) {
 		$this->validation = $validation;
 		return $this;
 	}
 	
+	public function __toString() {
+		return $this->libelle;
+	}
+	public function getDomaine() {
+		return $this->domaine;
+	}
+	public function setDomaine($domaine) {
+		$this->domaine = $domaine;
+		return $this;
+	}
+	
+
+	
+
 }

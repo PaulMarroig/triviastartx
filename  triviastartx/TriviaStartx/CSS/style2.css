@@ -139,61 +139,6 @@ input {
 	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
 } 
 
-.place_holder{
-    color: gray;
-}
-option{
-    color: #000000;
-}
-
-
-/**** advanced input styling ****/
-/* placeholder */
-::-webkit-select-placeholder  { 
-	color: rgb(190, 188, 188); 
-	font-style: italic;
-}
-select:-moz-placeholder,
-textarea:-moz-placeholder{ 
-	color: rgb(190, 188, 188);
-	font-style: italic;
-} 
-select {
-  outline: none;
-}
-
-/* all the input except submit and checkbox */
-#wrapper select:not([type="checkbox"]){
-	width: 92%;
-	margin-top: 4px;
-	padding: 10px 5px 10px 32px;	
-	border: 1px solid rgb(178, 178, 178);
-	-webkit-appearance: textfield;
-	-webkit-box-sizing: content-box;
-	  -moz-box-sizing : content-box;
-	       box-sizing : content-box;
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-	        border-radius: 3px;
-	-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
-	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
-	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
-	-webkit-transition: all 0.2s linear;
-	   -moz-transition: all 0.2s linear;
-	     -o-transition: all 0.2s linear;
-	        transition: all 0.2s linear;
-}
-#wrapper select:not([type="checkbox"]):active,
-#wrapper select:not([type="checkbox"]):focus{
-	border: 1px solid rgba(91, 90, 90, 0.7);
-	background: rgba(238, 236, 240, 0.2);	
-	-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
-	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
-	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
-} 
-
-
-
 /** the magic icon trick ! **/
 [data-icon]:after {
     content: attr(data-icon);
@@ -234,39 +179,6 @@ select {
 	     -o-transition: all 0.2s linear;
 	        transition: all 0.2s linear;
 }
-
-/*styling both submit buttons */
-#wrapper p.button select{
-	width: 30%;
-	cursor: pointer;	
-	background: rgb(61, 157, 179);
-	padding: 8px 5px;
-	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
-	color: #fff;
-	font-size: 24px;	
-	border: 1px solid rgb(28, 108, 122);	
-	margin-bottom: 10px;	
-	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-	        border-radius: 3px;	
-	-webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
-	        0px 0px 0px 3px rgb(254, 254, 254),
-	        0px 5px 3px 3px rgb(210, 210, 210);
-	   -moz-box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
-	        0px 0px 0px 3px rgb(254, 254, 254),
-	        0px 5px 3px 3px rgb(210, 210, 210);
-	        box-shadow:0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset,
-	        0px 0px 0px 3px rgb(254, 254, 254),
-	        0px 5px 3px 3px rgb(210, 210, 210);
-	-webkit-transition: all 0.2s linear;
-	   -moz-transition: all 0.2s linear;
-	     -o-transition: all 0.2s linear;
-	        transition: all 0.2s linear;
-}
-
-
-
 #wrapper p.button input:hover{
 	background: rgb(74, 179, 198);
 }
@@ -280,23 +192,6 @@ select {
 	   -moz-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
 	        box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
 }
-
-
-#wrapper p.button select:hover{
-	background: rgb(74, 179, 198);
-}
-#wrapper p.button select:active,
-#wrapper p.button select:focus{
-	background: rgb(40, 137, 154);
-	position: relative;
-	top: 1px;
-	border: 1px solid rgb(12, 76, 87);	
-	-webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
-	   -moz-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
-	        box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.2) inset;
-}
-
-
 p.login.button,
 p.signin.button{
 	text-align: right;
@@ -309,17 +204,12 @@ p.signin.button{
 	margin-top: -5px;
 }
 .keeplogin input,
-.keeplogin select,
 .keeplogin label{
 	display: inline-block;
 	font-size: 12px;	
 	font-style: italic;
 }
 .keeplogin input#loginkeeping{
-	margin-right: 5px;
-}
-
-.keeplogin select#loginkeeping{
 	margin-right: 5px;
 }
 .keeplogin label{
@@ -415,6 +305,7 @@ p.change_link{
 	-webkit-box-shadow: 5px;
 	-moz-border-radius: 5px;
 		 border-radius: 5px;
+			
 }
 #register{	
 	z-index: 21;
@@ -439,32 +330,32 @@ p.change_link{
 }
 #toregister:target ~ #wrapper #login,
 #tologin:target ~ #wrapper #register{
-	-webkit-animation-name: fadeOutLeft;
-	-moz-animation-name: fadeOutLeft;
-	-ms-animation-name: fadeOutLeft;
-	-o-animation-name: fadeOutLeft;
-	animation-name: fadeOutLeft;
+	-webkit-animation-name: fadeOutLeftBig;
+	-moz-animation-name: fadeOutLeftBig;
+	-ms-animation-name: fadeOutLeftBig;
+	-o-animation-name: fadeOutLeftBig;
+	animation-name: fadeOutLeftBig;
 }
 
 /** the actual animation, credit where due : http://daneden.me/animate/ ***/
 .animate{
-	-webkit-animation-duration: 0.5s;
+	-webkit-animation-duration: 1s;
 	-webkit-animation-timing-function: ease;
 	-webkit-animation-fill-mode: both;
 	
-	-moz-animation-duration: 0.5s;
+	-moz-animation-duration: 1s;
 	-moz-animation-timing-function: ease;
 	-moz-animation-fill-mode: both;
 	
-	-o-animation-duration: 0.5s;
+	-o-animation-duration: 1s;
 	-o-animation-timing-function: ease;
 	-o-animation-fill-mode: both;
 	
-	-ms-animation-duration: 0.5s;
+	-ms-animation-duration: 1s;
 	-ms-animation-timing-function: ease;
 	-ms-animation-fill-mode: both;
 	
-	animation-duration: 0.5s;
+	animation-duration: 1s;
 	animation-timing-function: ease;
 	animation-fill-mode: both;
 }
@@ -479,16 +370,6 @@ p.change_link{
 	width: 10px;
 	padding: 0;
 }
-
-.lt8 #wrapper select{
-	padding: 10px 5px 10px 32px;
-    width: 92%;
-}
-.lt8 #wrapper select[type=checkbox]{
-	width: 10px;
-	padding: 0;
-}
-
 .lt8 #wrapper h1{
 	color: #066A75;
 }
