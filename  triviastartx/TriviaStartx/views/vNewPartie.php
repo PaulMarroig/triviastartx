@@ -3,7 +3,7 @@
 		<table border="0" align="center" bgcolor="white">
 	<tr><td colspan=3 ><div class="Three-Dee">TriviaStartx<hr></div></td></tr>
 </center>
-	<form method="post" action="CQuestion">
+	<form method="post" action="CRoulette">
 		
 		<tr><td colspan=3 align=left>
 		
