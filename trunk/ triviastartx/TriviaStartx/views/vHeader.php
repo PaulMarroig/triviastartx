@@ -7,6 +7,7 @@ require_once 'technics/Gui.php';
 <meta charset="UTF-8">
 <script type="text/javascript" src="<?php echo $GLOBALS["siteUrl"]?>js/jquery-2.0.3.js"></script>
 <script type="text/javascript" src="<?php echo $GLOBALS["siteUrl"]?>js/jquery.validate.js"></script>
+<script type="text/javascript" src="<?php echo $GLOBALS["siteUrl"]?>js/JRoulette.js"></script>
 <link rel="stylesheet" type="text/css" href="<?php echo $GLOBALS["siteUrl"]?>CSS/animate-custom.css">
 <link rel="stylesheet" type="text/css" href="<?php echo $GLOBALS["siteUrl"]?>CSS/demo.css">
 <link rel="stylesheet" type="text/css" href="<?php echo $GLOBALS["siteUrl"]?>CSS/Question.css">
