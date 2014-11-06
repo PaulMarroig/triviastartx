@@ -12,6 +12,5 @@
 <canvas id="wheelcanvas" width="500" height="500"></canvas><br>
 <div id="message"><a href="CQuestion">Jouer</a></div>
 </center>
-<input type="submit" value="Jouer" class="btn"/>
 </body>
 </html>
