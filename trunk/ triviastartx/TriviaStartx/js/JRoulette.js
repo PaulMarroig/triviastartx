@@ -2,7 +2,7 @@
 var colors = ["#B8D430", "#3AB745", "#029990", "#3501CB",
                "#2E2C75", "#673A7E", "#CC0071", "#F80120",
                "#F35B20", "#FB9A00", "#FFCC00", "#FEF200"];
-  var restaraunts = ["Wendy's", "Apple", "Chick-fil-a", "Five Guys",
+  var restaraunts = ["Informatique", "Telephonie", "Jeux-vidéo", "Five Guys",
                      "Gold Star", "La Mexicana", "Chipotle", "Tazza Mia",
                      "Panera", "Just Crepes", "Arby's", "Indian"];
   
