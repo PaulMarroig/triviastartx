@@ -11,5 +11,6 @@
 <br>
 <canvas id="wheelcanvas" width="500" height="500"></canvas>
 </center>
+<input type="submit" value="Jouer" class="btn"/>
 </body>
 </html>
