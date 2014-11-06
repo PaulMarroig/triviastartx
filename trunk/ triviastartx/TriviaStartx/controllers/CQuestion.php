@@ -7,6 +7,7 @@ public function index(){
 	/*
 	 * Obtenir une question aléatoire.
 	 */
+	//$this->loadView("vQuestion");
 	$e = DAO::getOne("Question","1=1 order by rand() limit 1");
 	$a = $this->affiche($e);
 	$valeur=array("Question"=>$e,
