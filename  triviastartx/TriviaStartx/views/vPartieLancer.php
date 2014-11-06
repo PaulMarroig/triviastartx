@@ -10,7 +10,7 @@ foreach ($data as $k=>$v){
 	}
 	else{
 		foreach ($v as $reponse){
-				echo "<input type='submit' class='reponse' id='".$reponse->getEstBonne()."' name='choix' value=".$reponse->getLibelle()." ><br>"; 
+				echo "<br><input type='submit' class='reponse' id='".$reponse->getEstBonne()."' name='choix' value=".$reponse->getLibelle()." ><br>"; 
 			
 			
 		}
