@@ -2,9 +2,9 @@
 var colors = ["#B8D430", "#3AB745", "#029990", "#3501CB",
                "#2E2C75", "#673A7E", "#CC0071", "#F80120",
                "#F35B20", "#FB9A00", "#FFCC00", "#FEF200"];
-  var restaraunts = ["Informatique", "Telephonie", "Jeux-vidéo", "Five Guys",
-                     "Gold Star", "La Mexicana", "Chipotle", "Tazza Mia",
-                     "Panera", "Just Crepes", "Arby's", "Indian"];
+  var restaraunts = ["Informatique", "Telephonie", "Jeux-vidéo", "Histoire",
+                     "Célébrité", "Connectivité", "Architecture", "Composant PC",
+                     "Logiciels", "Audio & Hifi", "Tablette", "Accessoires"];
   
   var startAngle = 0;
   var arc = Math.PI / 6;
@@ -82,6 +82,7 @@ var colors = ["#B8D430", "#3AB745", "#029990", "#3501CB",
   }
   
   function rotateWheel() {
+	 $('#message').attr('style','visibility:hidden')
     spinTime += 30;
     if(spinTime >= spinTimeTotal) {
       stopRotateWheel();
@@ -101,6 +102,7 @@ var colors = ["#B8D430", "#3AB745", "#029990", "#3501CB",
     ctx.save();
     ctx.font = 'bold 30px sans-serif';
     var text = restaraunts[index]
+   $('#message').removeAttr('style','visibility:hidden');
     ctx.fillText(text, 250 - ctx.measureText(text).width / 2, 250 + 10);
     ctx.restore();
   }

@@ -1,3 +1,7 @@
+<div class="centre">
+	1ère Question
+<br>
+
 <?php 
 
 foreach ($data as $k=>$v){
@@ -14,6 +18,7 @@ foreach ($data as $k=>$v){
 	
 }
 ?>
+
 <div id="message"></div>
 
-
+</div>
